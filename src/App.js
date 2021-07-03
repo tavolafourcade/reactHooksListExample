@@ -1,9 +1,14 @@
 import FrutasVersionClase from './components/FrutasVersionClase';
+import FrutasVersionFuncional from './components/FrutasVersionFuncional';
 import './App.css';
 
 function App() {
   return (
-    <FrutasVersionClase/>
+    <div>
+      <FrutasVersionClase/>
+      <FrutasVersionFuncional/>
+    </div>
+    
   );
 }
 
